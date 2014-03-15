@@ -1,4 +1,14 @@
-haskell-study
+Haskell勉強会
 =============
 
-Haskell勉強会
+- 土曜日
+- at [下北沢オープンソースCafe](http://www.osscafe.net/)
+
+
+## こんな感じで進めます
+
+
+
+## 勉強会ログ
+
+### 2014/3/15 第0回
