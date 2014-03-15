@@ -1,6 +1,6 @@
 Haskell勉強会
 =============
-- 課題図書: 「[すごいHaskell たのしく学ぼう!](http://www.amazon.co.jp//dp/B009RO80XY/)」
+- 課題図書: 「[すごいHaskell たのしく学ぼう!](http://www.amazon.co.jp//dp/B009RO80XY/)」[目次](http://ssl.ohmsha.co.jp/cgi-bin/menu.cgi?ISBN=978-4-274-06885-0)・[PDF版](http://estore.ohmsha.co.jp/titles/978427406885P)
 - 土曜日 11:00〜12:00
 - at [下北沢オープンソースCafe](http://www.osscafe.net/)
 
