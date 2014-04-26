@@ -74,4 +74,37 @@ niceGreeting = "Hello! So very nice to see you,"
 
 ### 3.4 let It Be
 
+* whereの様に変数や関数を定義する **式**
+* whereとは記載順が逆(定義が前)
+* スコープがwhereより狭い
+
+```haskell
+cylinder :: Double -> Double -> Double
+cylinder r h =
+  let sideArea = 2 * pi * r * h
+      topArea  = pi * r ^ 2
+  in  sideArea + 2 * topArea
+
+4 * (let a = 9 in  a + 1) + 2
+```
+
+* リスト内包表記が可能
+
+```haskell
+calcBmis :: [(Double, Double)] -> [Double]
+calcBmis xs = [bmi | (w, h) <- xs, let bmi = w / h ^ 2]
+```
+
 ### 3.5 case式
+
+* case **式** なので、評価した値をそのまま使える
+* パターンマッチもできる
+
+```haskell
+describeList :: [Char] -> String
+describeList ls = "The list is "
+         ++ case ls of []  -> "empty."
+		                   "A" -> "The A."
+                       [x] -> "a singleton list."
+                       xs  -> "a longer list."
+```
